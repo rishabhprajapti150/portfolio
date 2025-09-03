@@ -71,7 +71,7 @@ export default function Header() {
                 </nav>
                 <div className="mt-auto">
                   <a
-                    href="./Rishabh_Fullstack.pdf"
+                    href="./Rishabh_Fullstack"
                     download
                   >
                     <Button className="w-full">
