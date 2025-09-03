@@ -37,7 +37,7 @@ export default function Header() {
         </nav>
         <div className="flex flex-1 items-center justify-end">
           <a
-            href={`${publicRuntimeConfig.basePath}/Rishabh_Fullstack.pdf`}
+            href={`https://rishabhprajapti150.github.io/portfolio/Rishabh_Fullstack.pdf`}
             download
             className="hidden md:inline-flex"
           >
