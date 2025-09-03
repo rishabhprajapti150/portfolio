@@ -37,8 +37,11 @@ export default function Header() {
         </nav>
         <div className="flex flex-1 items-center justify-end">
           <a
-            href={`https://rishabhprajapti150.github.io/portfolio/Rishabh_Fullstack.pdf`}
-            download
+            // href={`https://rishabhprajapti150.github.io/portfolio/Rishabh_Fullstack.pdf`}
+            // download
+            href="/portfolio/Rishabh_Fullstack.pdf"
+            target="_blank"   // ✅ opens in new tab
+            rel="noopener noreferrer"
             className="hidden md:inline-flex"
           >
             <Button>
