@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  distDir: "dist",
+  // distDir: "dist",
   basePath: '/portfolio',      // repo name
   assetPrefix: '/portfolio/',  // repo name
 };
