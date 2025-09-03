@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Code, Download, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import getConfig from "next/config";
 
+const { publicRuntimeConfig } = getConfig();
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
@@ -35,7 +37,7 @@ export default function Header() {
         </nav>
         <div className="flex flex-1 items-center justify-end">
           <a
-            href="/Rishabh_Fullstack.pdf"
+            href={`${publicRuntimeConfig.basePath}/Rishabh_Fullstack.pdf`}
             download
             className="hidden md:inline-flex"
           >
