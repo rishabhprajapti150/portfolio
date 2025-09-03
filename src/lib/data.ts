@@ -63,20 +63,20 @@ export const portfolioData = {
       },
       screenshots: [
         {
-          src: "/job-seeker.png",
+          src: "./job-seeker.png",
           hint: "dashboard jobseeker",
         },
         {
-          src: "/job-admin.png",
+          src: "./job-admin.png",
           hint: "dashboard employer",
         },
         {
-          src: "/job-employer.png",
+          src: "./job-employer.png",
           hint: "dashboard admin",
         },
 
       ],
-      videoUrl: "https://vimeo.com/1115175907",
+      videoUrl: "./https://vimeo.com/1115175907",
       links: {
         github: "https://github.com/rishabhprajapti150/jobfinder-ui",
       },
@@ -105,25 +105,25 @@ export const portfolioData = {
       },
       screenshots: [
         {
-          src: "/HSNC-HOME.png",
+          src: "./HSNC-HOME.png",
           hint: "admin dashboard",
         },
         {
-          src: "/Admin-Report.png",
+          src: "./Admin-Report.png",
           hint: "admin reports",
         },
         {
-          src: "/student-home.png",
+          src: "./student-home.png",
           hint: "student home",
         },
         {
-          src: "/student-payment.png",
+          src: "./student-payment.png",
           hint: "student payment",
         },
 
 
       ],
-      videoUrl: "https://vimeo.com/1115176220",
+      videoUrl: "./https://vimeo.com/1115176220",
       links: {
         github: "https://github.com/worldfellow/instafeezFE",
       },
@@ -147,23 +147,23 @@ export const portfolioData = {
       },
       screenshots: [
         {
-          src: "/Hostel-Home.png",
+          src: "./Hostel-Home.png",
           hint: "Student Home",
         },
         {
-          src: "/hostel-admin.png",
+          src: "./hostel-admin.png",
           hint: "hostel dashboard",
         },
         {
-          src: "/hostelfees-tracking.png",
+          src: "./hostelfees-tracking.png",
           hint: "fee tracking",
         },
         {
-          src: "/room-assign.png",
+          src: "./room-assign.png",
           hint: "room allocation",
         }
       ],
-      videoUrl: "https://vimeo.com/1115176957",
+      videoUrl: "./https://vimeo.com/1115176957",
       links: {
         github: "https://github.com/rishabhprajapti150/hostel-management",
       },
@@ -183,19 +183,19 @@ export const portfolioData = {
       },
       screenshots: [
         {
-          src: "/budget-finance.png",
+          src: "./budget-finance.png",
           hint: "finance dashboard",
         },
         {
-          src: "/finance-add.png",
+          src: "./finance-add.png",
           hint: "transactions list",
         },
         {
-          src: "/finance-report.png",
+          src: "./finance-report.png",
           hint: "spending report",
         },
       ],
-      videoUrl: "https://vimeo.com/1115176623",
+      videoUrl: "./https://vimeo.com/1115176623",
       links: {
         github: "https://github.com/rishabhprajapti150/budget-finance",
       },
