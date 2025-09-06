@@ -76,7 +76,7 @@ export const portfolioData = {
         },
 
       ],
-      videoUrl: "./https://vimeo.com/1115175907",
+      videoUrl: "https://vimeo.com/1115175907",
       links: {
         github: "https://github.com/rishabhprajapti150/jobfinder-ui",
       },
@@ -123,7 +123,7 @@ export const portfolioData = {
 
 
       ],
-      videoUrl: "./https://vimeo.com/1115176220",
+      videoUrl: "https://vimeo.com/1115176220",
       links: {
         github: "https://github.com/worldfellow/instafeezFE",
       },
@@ -163,7 +163,7 @@ export const portfolioData = {
           hint: "room allocation",
         }
       ],
-      videoUrl: "./https://vimeo.com/1115176957",
+      videoUrl: "https://vimeo.com/1115176957",
       links: {
         github: "https://github.com/rishabhprajapti150/hostel-management",
       },
@@ -195,7 +195,7 @@ export const portfolioData = {
           hint: "spending report",
         },
       ],
-      videoUrl: "./https://vimeo.com/1115176623",
+      videoUrl: "https://vimeo.com/1115176623",
       links: {
         github: "https://github.com/rishabhprajapti150/budget-finance",
       },
