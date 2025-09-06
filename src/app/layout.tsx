@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Rishabh Prajapati | Full Stack Developer",
   description: "Portfolio of Rishabh Prajapati — MERN & Full Stack Developer.",
   icons: {
-    icon: "/favicon.ico", // 👈 place your custom favicon here
+    icon: "/portfolio-icon.jpg", // 👈 correct format
   },
 };
 
