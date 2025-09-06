@@ -1,9 +1,9 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Portfolio Pro',
+  title: 'Portfolio',
   description: 'Portfolio of Rishabh Prajapati',
 };
 
