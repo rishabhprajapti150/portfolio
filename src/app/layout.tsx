@@ -5,6 +5,9 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: "Rishabh Prajapati | Full Stack Developer",
   description: "Portfolio of Rishabh Prajapati — MERN & Full Stack Developer.",
+  icons: {
+    icon: "/favicon.ico", // 👈 place your custom favicon here
+  },
 };
 
 export default function RootLayout({
