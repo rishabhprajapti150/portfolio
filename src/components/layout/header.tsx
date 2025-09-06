@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Code, Download, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import getConfig from "next/config";
+// import getConfig from "next/config";
 
-const { publicRuntimeConfig } = getConfig();
+// const { publicRuntimeConfig } = getConfig();
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
