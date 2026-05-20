@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-  output: "export", // replaces old `next export`
+  output: "export", // needed for static hosting
   images: {
     unoptimized: true, // disable Image Optimization (needed for static hosting)
   },
-  basePath: "/portfolio", // 👈 add this since your repo is rishabhprajapti150.github.io/portfolio
-  assetPrefix: "/portfolio/",
+  // Only use basePath/assetPrefix in production for GitHub Pages
+  ...(isProd && {
+    basePath: "/portfolio",
+    assetPrefix: "/portfolio/",
+  }),
 };
 
 module.exports = nextConfig;

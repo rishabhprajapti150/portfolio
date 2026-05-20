@@ -12,11 +12,11 @@ export const portfolioData = {
     name: "Rishabh Prajapati",
     title: "MERN Stack Developer || Full Stack Developer",
     intro:
-      "I build scalable and user-friendly web applications using React.js, Next.js, Tailwind CSS, Node.js, and Express.js. Passionate about UI Development and Full Stack Applications.",
+      "I build scalable and user-friendly web applications using Next.js, React.js, TypeScript, Tailwind CSS, Node.js, and Express.js. Passionate about AI-powered platforms, secure API development, and building impactful Full Stack applications.",
   },
   about: {
     description:
-      "B.Sc. IT Graduate from Mumbai University with 2 years of experience as a MERN Stack Developer. Skilled in React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, and MySQL. Experienced in building HSNC Instafeez Portal and Solapur Instafeez Portal, Job Portal, Hostel Management, and Budget Finance systems.",
+      "B.Sc. IT Graduate from Patkar Varde College, Mumbai University with 3 years of experience as a Full Stack Developer. Skilled in Next.js, React.js, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, and MySQL. Experienced in building AI-powered news platforms, risk management systems, payment portals, and hostel management applications.",
   },
   skills: [
     { name: "React.js", icon: ReactIcon },
@@ -33,52 +33,74 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Job Portal Website",
+      title: "Kanalyser — AI-Powered News Platform",
       description:
-        "A role-based job portal for Job Seekers, Employers, and Admins, designed to streamline the hiring process with dedicated dashboards and functionalities for each user type.",
-      techStack: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "Mysql",
-        "Tailwind CSS",
-        "TypeScript"
-      ],
+        "An AI-powered news platform where users can search and read news from sources like Hindustan Times, Times of India, and Bloomberg using LLM features. Users can ask queries and get AI-generated news updates and summaries. Implemented Notification system, Daily Update feature, and Grok-related news functionality.",
+      techStack: ["Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       roles: {
-        jobseeker: [
-          "Create and manage profile with resume upload and skill highlighting.",
-          "Search and apply for jobs with advanced filtering options.",
-          "Track application status and receive notifications.",
-        ],
-        employer: [
-          "Post, edit, and manage job listings with detailed descriptions.",
-          "View and filter applicant profiles and resumes.",
-          "Manage company profile and communicate with candidates.",
+        user: [
+          "Search and read news from multiple sources (Hindustan Times, Times of India, Bloomberg, etc.)",
+          "Ask AI queries like 'HDFC Bank chairman news' and get AI-generated summaries",
+          "Receive personalized news notifications daily, weekly, monthly, or on custom schedules",
+          "Create topics for automated Daily Updates without manual searches",
+          "View and interact with Grok-related Twitter/X news insights",
         ],
         admin: [
-          "Oversee all users, including job seekers and employers.",
-          "Monitor job postings, application reports, and site activity.",
-          "Access system analytics for insights on platform usage.",
+          "Manage news sources, users, and system configurations",
+          "Monitor system performance and manage role-based access control",
+          "Ensure end-to-end encryption for API requests and responses",
         ],
       },
       screenshots: [
         {
-          src: "./job-seeker.png",
-          hint: "dashboard jobseeker",
+          src: "./home-kanalyser.png",
+          hint: "Kanalyser home page",
         },
         {
-          src: "./job-admin.png",
-          hint: "dashboard employer",
+          src: "./news-kanalyser.png",
+          hint: "news search and AI summaries",
         },
         {
-          src: "./job-employer.png",
-          hint: "dashboard admin",
+          src: "./Grok-kanalyser.png",
+          hint: "Grok-related news insights",
         },
-
       ],
-      videoUrl: "https://vimeo.com/1115175907",
+      videoUrl: "",
       links: {
-        github: "https://github.com/rishabhprajapti150/jobfinder-ui",
+        github: "",
+      },
+    },
+    {
+      title: "Risk Management Platform",
+      description:
+        "An analysis platform for monitoring and analyzing events across India. Users can view events based on state, city, or district, tracking incidents like violence, protests, and critical situations. Includes risk scoring for finance and investment companies to make informed business decisions.",
+      techStack: ["Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+      roles: {
+        analyst: [
+          "View and filter events by state, city, or district across India",
+          "Monitor different event types including violence, protests, and critical incidents",
+          "Filter events based on risk levels to assess situation severity",
+          "Access detailed risk scores for specific regions",
+        ],
+        enterprise: [
+          "Analyze regional risk for investment decisions (e.g., for finance companies like Bajaj Finance)",
+          "Generate risk scores based on ongoing events in target areas",
+          "Take preventive actions and make data-driven business decisions",
+        ],
+      },
+      screenshots: [
+        {
+          src: "./home-risk.png",
+          hint: "risk management dashboard",
+        },
+        {
+          src: "./event-risk.png",
+          hint: "event risk analysis",
+        },
+      ],
+      videoUrl: "",
+      links: {
+        github: "",
       },
     },
     {
